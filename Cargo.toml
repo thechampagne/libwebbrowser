@@ -1,0 +1,19 @@
+[package]
+name = "webbrowser"
+version = "1.0.0"
+description = "A library to open URLs in web browsers available on a platform"
+authors = ["XXIV"]
+homepage = "https://github.com/thechampagne/libwebbrowser"
+repository = "https://github.com/thechampagne/libwebbrowser"
+readme = "README.md"
+license = "Apache-2.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "webbrowser"
+crate-type =["cdylib","staticlib"]
+
+[dependencies]
+webbrowser = "0.8.2"
