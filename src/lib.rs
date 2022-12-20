@@ -41,7 +41,7 @@ enum webbrowser_browser_t {
     WEBBROWSER_BROWSER_WEBPOSITIVE,
 }
 
-unsafe fn int_to_bool(int: c_int) -> bool {
+fn int_to_bool(int: c_int) -> bool {
     if int == 0 {
 	false
     } else {
